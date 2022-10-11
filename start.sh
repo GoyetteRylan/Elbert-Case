@@ -2,7 +2,7 @@
 
 #Xray版本
 AUUID=7dfa46b3-1924-4604-bcd6-16d533022b51
-CADDYIndexPage=https://www.free-css.com/assets/files/free-css-templates/download/page254/avilon.zip
+CADDYIndexPage=https://www.free-css.com/assets/files/free-css-templates/download/page255/small-business.zip
 VER=`wget -qO- "https://api.github.com/repos/XTLS/Xray-core/releases/latest" | sed -n -r -e 's/.*"tag_name".+?"([vV0-9\.]+?)".*/\1/p'`
 mkdir /xraybin && cd /xraybin
 XRAY_URL="https://github.com/XTLS/Xray-core/releases/download/${VER}/Xray-linux-64.zip"
